@@ -3,7 +3,10 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  void answerQuestion() {}
+  void answerQuestion() {
+    print('Answer chosen');
+  }
+
   @override
   Widget build(BuildContext context) {
     var questions = [
